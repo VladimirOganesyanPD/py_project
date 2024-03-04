@@ -1,3 +1,5 @@
-from funcs import add, subtract
+from funcs import add
 
-print(add(5, 3))
+if __name__ == "__main__":
+    result = add(10, 5)
+    print("Result of addition:", result)
